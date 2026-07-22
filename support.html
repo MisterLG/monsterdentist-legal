@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support – Monster Dentist</title>
+    <style>
+        :root {
+            --bg: #eaf6ff;
+            --bg-gradient: linear-gradient(160deg, #eaf6ff 0%, #f2ecff 50%, #ffeef5 100%);
+            --card: #ffffff;
+            --text: #2b2438;
+            --text-soft: #6b6478;
+            --accent: #7b6ef6;
+            --accent-soft: #ffd6e8;
+            --mint: #c8f4e6;
+            --shadow: 0 12px 30px rgba(123, 110, 246, 0.15);
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #1c1a26;
+                --bg-gradient: linear-gradient(160deg, #1c1a26 0%, #211d30 50%, #251c28 100%);
+                --card: #262233;
+                --text: #f1eefc;
+                --text-soft: #b3aac2;
+                --accent: #a89bff;
+                --accent-soft: #3a2c3d;
+                --mint: #1f3a34;
+                --shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+            }
+        }
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 48px 24px 60px;
+            color: var(--text);
+            line-height: 1.7;
+            background: var(--bg-gradient);
+            min-height: 100vh;
+        }
+        .card {
+            background: var(--card);
+            border-radius: 28px;
+            padding: 36px 32px;
+            box-shadow: var(--shadow);
+        }
+        h1 { font-size: 2em; margin: 0 0 4px; }
+        h2 {
+            font-size: 1.2em;
+            margin-top: 36px;
+            background: var(--mint);
+            display: inline-block;
+            padding: 6px 16px;
+            border-radius: 999px;
+        }
+        p, li { font-size: 1em; color: var(--text); }
+        .meta { color: var(--text-soft); font-size: 0.9em; margin-bottom: 32px; }
+        a { color: var(--accent); font-weight: 600; }
+        .faq {
+            background: var(--accent-soft);
+            border-radius: 18px;
+            padding: 16px 20px;
+            margin: 14px 0;
+        }
+        .faq strong { display: block; margin-bottom: 4px; }
+    </style>
+</head>
+<body>
+
+<div class="card">
+
+<h1>Support</h1>
+<p class="meta">Monster Dentist</p>
+
+<p>
+    Fragen, Feedback, Fehler gefunden oder eine Idee für ein neues Monster?
+    Schreib uns einfach:
+</p>
+
+<p>
+    E-Mail: <a href="mailto:stadien.epsilon.9i@icloud.com">stadien.epsilon.9i@icloud.com</a>
+</p>
+
+<h2>Häufige Fragen</h2>
+
+<div class="faq">
+    <strong>Wo wird mein Spielfortschritt gespeichert?</strong>
+    Nur lokal auf deinem Gerät. Es gibt keinen Account und keine
+    Cloud-Sicherung.
+</div>
+
+<div class="faq">
+    <strong>Werden meine Daten hochgeladen?</strong>
+    Nein. Die App ist komplett offline, ohne Konto, Werbung oder Tracking.
+</div>
+
+<div class="faq">
+    <strong>Ist die App wirklich für Kinder geeignet?</strong>
+    Ja. Cartoon-Stil, keine gruseligen Inhalte, kein Blut, kein Ekel, keine
+    Bestrafung bei Fehlern – und keinerlei Datenerfassung.
+</div>
+
+<div class="faq">
+    <strong>Gibt es Werbung oder In-App-Käufe?</strong>
+    Aktuell nein. Beides ist im Code vorbereitet, aber vollständig
+    deaktiviert.
+</div>
+
+<p><a href="privacy.html">Datenschutz</a> · <a href="impressum.html">Impressum</a></p>
+
+</div>
+
+</body>
+</html>
